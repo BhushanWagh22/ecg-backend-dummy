@@ -1,0 +1,96 @@
+,DESIGN POINT INPUT,NOMENCLATURE,VALUE,,UNIT
+,,,,,
+Flight parameters:,Engine inlet mass flow�,W0,43.0913,ID1,kg/s
+,Altitude ,alt,0,ID2,m
+,Gas constant�(air),Ra,287.05,ID3,J/Kg K
+,Gas constant�(gas),Rg,287.046,ID4,J/Kg K
+,Specific heat ratio�(air),ga,1.4,ID5,-
+,Specific heat ratio�(gas),gg,1.33,ID6,-
+,Inlet Mach�,XM,0,ID7,-
+,Fan exit fuel tank pressurization bleed ratio (%W21),G25WF,0,ID8,
+Aircraft System Parameters:,HPC air bleed ratio (%W25),G26W0,0.01,ID9,-
+,Enthalpy ratio,CH26D25Q,0.5,ID10,-
+,HP shaft power loss ,PWSHL,0,ID11,%PW
+,Power for A/C accessories ,PWXACC,0.01,ID12,%PW
+,Power for gearbox ,PWGB,0.01,ID13,%PW
+Design limitations - Component figures of merit:,HPT cooling air bleed ratio,G32W41,0.02,ID14,-
+,LPT cooling air bleed ratio,G32W49,0,ID15,-
+,Ram inlet pressure ratio,P2Q0,0.99,ID16,-
+,LPC - HPC interduct pressure ratio,P25Q21,0.99,ID17,
+,Burner pressure ratio,P4Q32,0.95,ID18,-
+,Fuel Heating value,FHV,43124000,ID19,J/Kg
+,Reference fuel temperature,Tf,303,ID20,K
+,Outer fan isentropic/polytropic efficiency,E13D1,0.88,ID21,
+,Inner fan isentropic/polytropic efficiency,E21D2,0.78,ID22,-
+,HPC isentropic/polytropic efficiency,E3D25,0.86,ID23,-
+,Burner isentropic/polytropic efficiency,E4D32,0.9995,ID24,-
+,HPT isentropic/polytropic efficiency,E41D42,0.9,ID25,-
+,LPT isentropic/polytropic efficiency,E5D49,0.91,ID26,-
+Design choices:,Outer Fan pressure ratio,P13Q2,2.45,ID27,-
+,Inner Fan pressure ratio,P21Q2,2.568,ID28,
+,HPC pressure ratio,P3Q25,4.4,ID29,-
+,Hot stream mixer pressure ratio,P63Q6,0.99,ID30,-
+,Cold stream mixer pressure ratio,P163Q16,0.99,ID31,-
+,Turbine exit duct pressure ratio,P6Q5,0.98,ID32,-
+,Bypass duct pressure ratio,P16Q13,0.97,ID33,-
+,Bypass ratio,BPR,0.75,ID34,-
+,Burner exit temperature ,Tcomb,1500,ID35,
+,HPT expansion ratio,P41Q42,3,ID36,
+,LPTexpansion ratio,P49Q5,1.8,ID37,K
+HP flow path data:,Number of stages in HPC ,n_HPC,5,ID38,-
+,Number of stages in HPT,n_HPT,1,ID39,
+,Stage loading of HPC ,tsi_HPC,0.4,ID40,-
+,Stage loading of HPT,tsi_HPT,0.5,ID41,-
+,HPC inlet tip speed,U25,500,ID42,m/s
+,AN^2 - Blade loading stress parameters,AN2_H,1.72E+07,ID43,m�rpm�
+LP flow path data:,Number of stages in LPC ,n_LPC,2,ID44,-
+,Number of stages in LPT,n_LPT,1,ID45,-
+,Stage loading of LPC ,tsi_LPC,0.4,ID46,?
+,Stage loading of LPT,tsi_LPT,0.5,ID47,?
+,LPC inlet tip speed,U2,350,ID48,m/s
+,LPC tip radius ,Rt2,0.2336,ID49,m
+Station Mach number:,Engine Inlet/freestream,M0,0,ID50,-
+,LPC inlet,M2,0.5,ID51,-
+,LPC exit: Outer stream,M13,0.5,ID52,-
+,LPC exit: Inner stream,M21,0.5,ID53,-
+,HPC inlet,M25,0.5,ID54,-
+,HPC bleed,M26,0.35,ID55,-
+,HPC exit,M3,0.2,ID56,-
+,Combustor inlet,M32,0.2,ID57,-
+,Combustor exit,M4,0.3,ID58,-
+,HPT inlet,M41,0.4,ID59,-
+,HPT exit,M42,0.45,ID60,-
+,LPT inlet,M49,0.4,ID61,-
+,LPT exit,M5,0.5,ID62,-
+,Bypass exit,M16,0.4,ID63,-
+,Jet pipe inlet,M6,0.4,ID64,-
+,Cold side mixing plane,M163,0.3,ID65,-
+,Hot side mixing plane,M63,0.35,ID66,-
+,Mizing plane/ Reheat entry,M64,0.32,ID67,-
+,Nozzle throat,M8,1,ID68,-
+,Nozzle exit,M9,1.5,ID69,
+,Nozzle Discharge coefficient,Cd,0.95,ID70,-
+,Flow angle into LPC,fa2,0,ID71,�
+,Flow angle exiting near LPC tip,fa13,0,ID72,�
+,Flow angle exiting near LPC hub,fa21,0,ID73,�
+,Flow angle into HPT,fa41,0,ID74,�
+,Flow angle exiting HPT,fa42,0,ID75,�
+,LPC inlet hub to tip ratio,Rhtr2,0.5,ID76,-
+,Reheat (On/Off) = (0/1),_r,1,ID77,-
+,Number of stations,StationNo,20,ID78,-
+,Reheat temperature,T7,1800,ID79,K
+,Afterburner pressure loss,P7Q64,0.9,ID80,-
+,Turbine interduct pressure loss,P49Q42,0.98,ID81,-
+,Nozzle isentropic efficiency,E8D7,0.98,ID82,-
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
